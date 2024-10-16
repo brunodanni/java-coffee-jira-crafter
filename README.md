@@ -1,24 +1,24 @@
-# ☕ Java Coffee Crafter ☕️
+# ☕ Java Coffee Jira Crafter ☕️
 
-Welcome to the **Java Coffee Crafter** repository! This is your aromatic collection of Java scripts, brewed to perfection for all your coding needs. Whether you're stirring up new features or fine-tuning your applications, you've found the right coffee shop for your code cravings!
+Welcome to the **Java Coffee Jira Crafter** repository! This is your aromatic collection of Java scripts, brewed to perfection for all your Jira automation needs. Whether you're stirring up new features or fine-tuning your Jira instance, you've found the right coffee shop for your code cravings!
 
 ## 🌟 What's Brewing in the Pot?
 
-Savor the delightful scripts we have on offer:
+Savor the delightful scripts we have on offer for Jira:
 
-- **☕ Espresso Express**: Fast and sleek scripts for quick and efficient tasks.
-- **🍵 Latte Logic**: Smooth solutions for complex problems, blending creativity with code.
-- **🍪 Cappuccino Craft**: Frothy and robust automations to enhance your projects.
-- **🍫 Mocha Magic**: Sweet and rich data processing scripts to satisfy your analytical appetite.
-- **🛡️ Cafe Security**: Bold protection scripts to safeguard your applications.
+- **☕ Espresso Express for Jira**: Fast and sleek scripts for quick and efficient Jira tasks.
+- **🍵 Latte Logic in Jira**: Smooth solutions for complex Jira problems, blending creativity with code.
+- **🍪 Cappuccino Craft for Jira**: Frothy and robust automations to enhance your Jira projects.
+- **🍫 Mocha Magic in Jira**: Sweet and rich data processing scripts to satisfy your Jira analytical appetite.
+- **🛡️ Jira Cafe Security**: Bold protection scripts to safeguard your Jira applications.
 
 ## 🚀 How to Start Your Brewing Journey
 
 1. **Clone the Repository**: 
 
    ```bash
-   git clone https://github.com/your-username/java-coffee-crafter.git
-   cd java-coffee-crafter
+   git clone https://github.com/your-username/java-coffee-jira-crafter.git
+   cd java-coffee-jira-crafter
    ```
 
 2. **Gather Ingredients** (Compile and Build):
@@ -41,7 +41,7 @@ Have a recipe (or script) that you think belongs in our café? We'd love to see 
 2. **Clone Your Fork**: 
 
    ```bash
-   git clone https://github.com/your-username/java-coffee-crafter.git
+   git clone https://github.com/your-username/java-coffee-jira-crafter.git
    ```
 
 3. **Create a New Branch**: 
@@ -67,7 +67,7 @@ Have a recipe (or script) that you think belongs in our café? We'd love to see 
 
 ## 🎩 Acknowledgements
 
-A toast to all the Java baristas and code crafters who make this repository a delightful place. Your contributions keep the coffee brewing and the code flowing!
+A toast to all the Java baristas and Jira code crafters who make this repository a delightful place. Your contributions keep the coffee brewing and the code flowing!
 
 ## 📜 License
 
@@ -75,4 +75,4 @@ This project is licensed under the MIT License. Feel free to fork, clone, and br
 
 ---
 
-Feel free to adjust the sections and wording to better fit your specific scripts and style. Enjoy your caffeinated coding adventure!
+Feel free to adjust the sections and wording to better fit your specific scripts and style. Enjoy your caffeinated coding adventure with Jira!
