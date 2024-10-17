@@ -1,3 +1,6 @@
+// This Java application demonstrates how to create a Jira issue using the Jira REST API.
+// Developed using Apache NetBeans with Maven for dependency management.
+
 import java.io.OutputStream;
 import java.io.InputStreamReader;
 import java.io.BufferedReader;
@@ -14,7 +17,7 @@ public class JiraIssueCreator {
     private static final String API_TOKEN = "your_api_token"; // Replace with your API token
 
     public static void main(String[] args) {
-        createIssue();
+        createIssue(); // Call the method to create an issue
     }
 
     public static void createIssue() {
@@ -23,7 +26,7 @@ public class JiraIssueCreator {
             String urlString = JIRA_URL + "/rest/api/3/issue";
             URL url = new URL(urlString);
 
-            // Set up the connection
+            // Set up the HTTP connection for a POST request
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             connection.setRequestMethod("POST");
             connection.setRequestProperty("Content-Type", "application/json");
@@ -39,8 +42,8 @@ public class JiraIssueCreator {
                     + "\"project\": {"
                     + "\"key\": \"AFJ\"" // Replace with your project key
                     + "},"
-                    + "\"summary\": \"New issue created via Java\","
-                    + "\"description\": \"Description of the issue\","
+                    + "\"summary\": \"New issue created via Java\"," // Brief title of the issue
+                    + "\"description\": \"Description of the issue\"," // Description of the issue
                     + "\"issuetype\": {"
                     + "\"name\": \"Task\"" // Replace with the desired issue type name
                     + "}"
@@ -58,7 +61,7 @@ public class JiraIssueCreator {
 
             // Check the response code
             int responseCode = connection.getResponseCode();
-            if (responseCode == 201) {
+            if (responseCode == 201) { // HTTP 201 indicates success
                 // If successful, read the response
                 try (BufferedReader br = new BufferedReader(new InputStreamReader(connection.getInputStream(), StandardCharsets.UTF_8))) {
                     StringBuilder response = new StringBuilder();
@@ -84,6 +87,7 @@ public class JiraIssueCreator {
             }
 
         } catch (Exception e) {
+            // Print the stack trace if an exception occurs
             e.printStackTrace();
         }
     }
